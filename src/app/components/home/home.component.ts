@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
+  public sort: string = "";
+  constructor() { }
+
+
+  ngOnInit(): void { }
 
 }
