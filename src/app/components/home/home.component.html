@@ -1,7 +1,7 @@
 <div class="filters">
     <mat-form-field>
         <mat-label>Sort</mat-label>
-        <mat-select panelClass="sort-select" name="sort" [(ngModel)]="sort">
+        <mat-select panelClass="sort-select" name="sort" [(ngModel)]="sort" (selectionChange)="searchGames(sort)">
             <mat-option name="name" value="name">Name</mat-option>
             <mat-option name="released" value="-released">Released</mat-option>
             <mat-option name="added" value="-added">Added</mat-option>
@@ -17,7 +17,7 @@
 
 <div class="games">
     <ng-container *ngFor="let game of games">
-        <div class="game">
+        <div class="game" (click)="openGameDetails(game.id)">
             <div class="game-thumb-container">
                 <img *ngIf="game.background_image" src="{{ game.background_image }}" alt="thumbnail"
                     class="game-thumbnail">
