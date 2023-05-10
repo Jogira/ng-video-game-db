@@ -1,6 +1,6 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 export interface Game {
-    id: number;
+    id: string;
     background_image: string;
     name: string;
     released: string;
