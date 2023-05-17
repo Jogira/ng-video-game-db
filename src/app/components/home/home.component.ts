@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.routeSub = this.activatedRoute.params.subscribe((params: Params) => {
-      if (params['game-search]']) {
+      if (params['game-search']) {
         this.searchGames('metacrit', params['game-search']);
       }
       else {
@@ -30,6 +30,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       }
     });
   }
+
   searchGames(sort: string, search?: string) {
     this.gameSub = this.httpService
       .getGameList(sort, search)
