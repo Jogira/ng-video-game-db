@@ -36,10 +36,12 @@ export class DetailsComponent implements OnDestroy {
       .subscribe((gameResp: Game) => {
         this.game = gameResp;
 
+
         setTimeout(() => {
           this.gameRating = this.game.metacritic;
         }, 1000);
       });
+
   }
 
   getColor(value: number): string {
