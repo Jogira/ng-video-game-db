@@ -2,7 +2,7 @@ import { HttpEvent, HttpHandler, HttpInterceptor, HttpRequest } from "@angular/c
 import { Injectable } from "@angular/core";
 import { Observable, throwError as observableThrowError } from "rxjs";
 import { catchError } from 'rxjs/operators';
-import { environment as env } from 'src/app/environment/environment.prod';
+import { environment as env } from 'environment/environment.prod';
 
 
 @Injectable()

@@ -1,7 +1,7 @@
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, ObservedValueOf, forkJoin, map } from 'rxjs';
-import { environment as env } from 'src/app/environment/environment.prod';
+import { environment as env } from 'environment/environment.prod';
 import { APIResponse, Game } from 'src/app/models';
 
 @Injectable({

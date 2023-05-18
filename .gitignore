@@ -42,7 +42,5 @@ testem.log
 Thumbs.db
 
 ng-video-game-db/src/app/environment
-
-src/app/environment/
-src/app/environment/environment.ts
-src/app/environment/environment.prod.ts
+environment/environment.ts
+environment/environment.prod.ts
