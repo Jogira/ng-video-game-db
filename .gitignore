@@ -41,6 +41,6 @@ testem.log
 .DS_Store
 Thumbs.db
 
-# ng-video-game-db/src/app/environment
-# environment/environment.ts
-# environment/environment.prod.ts
+.gitignore
+environment/environment.ts
+environment/
