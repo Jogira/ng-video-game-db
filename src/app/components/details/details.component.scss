@@ -1,17 +1,20 @@
 .details-wrapper {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 20px auto;
     position: relative;
 }
 
 .details {
     ::ng-deep mwl-gauge {
-        width: 150px;
-        height: 150px;
+        text-shadow: 0 0 2px #000;
+
+        width: 140px;
+        height: 140px;
         display: block;
         padding: 10px;
 
         .dial {
+            
             stroke-width: 10;
         }
 
@@ -42,23 +45,26 @@
 }
 
 .game {
+
     &-banner {
-        height: 442px;
+        height: 420px;
         overflow: hidden;
 
         &-img {
             width: 100%;
-            filter: blur(5px);
+            filter: blur(4px);
         }
     }
 
     &-content {
         text-align: center;
         position: relative;
-        top: -200px;
+        top: -180px;
     }
 
     &-header {
+        text-shadow: 0 0 3px #000;
+
         &-title {
             font-size: 70px;
             color: #fff;

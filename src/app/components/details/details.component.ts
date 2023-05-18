@@ -55,7 +55,7 @@ export class DetailsComponent implements OnDestroy {
       return '#f7aa38';
     }
     else {
-      return 'ef4655';
+      return '#ef4655';
     }
   }
 

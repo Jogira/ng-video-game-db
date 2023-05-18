@@ -1,10 +1,10 @@
 <div class="game-tabs">
-    <mat-tab-group mat-align_tabs="start" backgroundColor="primary">
+    <mat-tab-group mat-align-tabs="start" backgroundColor="primary">
         <mat-tab label="About">
             <p *ngIf="game.parent_platforms?.length" class="game-tabs-par">
                 Platforms:
                 <span *ngFor="let game of game.parent_platforms; let last = last">
-                    {{ game.platform.name }} <span *ngIf="!last">, </span>
+                    {{ game.platform.name }}<span *ngIf="!last">, </span>
                 </span>
             </p>
 

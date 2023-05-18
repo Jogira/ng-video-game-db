@@ -1,7 +1,13 @@
+.mat-mdc-tab-group
+{
+    --mat-mdc-tab-header-with-background-background-color: #1fa256d2;
+}
+
 .game {
 
     &-tabs {
-        background: rgb(63 81 181 / 61%);
+        background: rgba(63, 81, 181, 0.767);
+        border-radius: 5px;
         color: #fff;
         text-align: left;
         padding: 10px;
@@ -12,7 +18,11 @@
         }
 
         &-link {
-            color: #fff;
+            color: #1eff00;
+        }
+
+        &-link:hover {
+            color: #dadada;
         }
 
         &-votes {
