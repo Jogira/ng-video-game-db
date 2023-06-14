@@ -1,5 +1,5 @@
 # Zweiton VideoGame db
-A web app that was created using Angular in conjunction with a free use video game database API from here: https://rawg.io/apidocs
+A web app following a tutorial from "Code with Sloba" that was created using Angular in conjunction with a free use video game database API from here: https://rawg.io/apidocs
 
 The games are automatically populated using an API call. 
 
